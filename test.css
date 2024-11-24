@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background: rgb(22, 22, 22);
+}
+
+a{
+  color: aliceblue;  
+  text-decoration: none;
+}
+
+.navbar{
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 9%;
+    background: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+
+}
+
+.navbar  .logo{
+    font-size: 30px;
+    font-weight:700 ;
+}
+
+.navbar ul {
+
+    display: flex;
+}
+
+.navbar ul li{
+
+    list-style: none;
+    margin-left: 35px;
+
+}
+
+.navbar ul li a{
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.navbar ul li:hover a{
+
+    color: #3d04c1;
+
+}
+
+.Home{
+
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: rgb(250, 248, 248);
+
+}
+
+/* h1 Design */ 
+
+.Home-info  h1 {
+    color: rgb(143, 232, 19);
+    font-size:55px ;
+    margin-left: 0;
+
+}
+
+/* h2 Design */
+
+.Home-info h2{
+
+    color: rgb(20, 230, 230);
+    font-size: 32px;
+    margin-top: -10px;
+    margin-left: 0;
+
+
+
+}
+
+/* p Design */
+
+.Home-info p{
+
+    color: #fbf9fe;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+
+
+.Home-info .btn-sci{
+
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+
+}
+
+/*buttun design*/
+
+.btn{
+
+    display: inline-block;
+    padding: 10px 30px;
+    background:#14097e;
+    border: 2 px rgb(229, 227, 239);
+    box-shadow: 0 0 10px ;
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(103, 4, 209);
+    font-weight: 600;
+    transition: 5s;
+    margin-left: 10px;
+
+}
+
+.btn:hover{
+
+    background: transparent;
+    color: rgb(214, 58, 63);
+    background: #3d04c1;
+    box-shadow: none;
+}
+
+/*Icon Design*/
+
+.Home-info  .btn-sci .sci{
+
+    margin-right:20px ;
+    height: 20px;
+    color: #fef5f5;
+}
+
+
+
+.Home-info  .btn-sci .sci a{
+
+    display: inline-flex;
+    padding: 8px;
+    border: 2px rgb(59, 61, 225);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(71, 52, 238);
+    margin:0 8px ;
+    transition: -5s;
+   
+}
+
+.Home-info .btn-sci .sci a:hover{
+
+    background: #3d04c1;
+    color: #f9d8d8;
+    box-shadow: 0 0 10px rebeccapurple;
+}
+
+/*Image Design*/
+
+
+
+.Home-img .img-box {
+
+    width: 24vw;
+    height: 24vw;
+    background: rgb(28, 27, 28);
+    border-radius: 50%;
+    left: 50%;
+    bottom: 0;
+    margin-top: 100;
+    border: 4px solid #380347
+}
+
+.Home-img .img-box .img-item {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+   
+    border: 50% ;
+    margin-top: 1%;
+    
+    left: 70%;
+    bottom: 30%;
+}
+
+.Home-img .img-box .img-item  img{
+    left: -60%;
+    bottom: -10%;
+    position: relative;
+    width: 85%;
+    object-fit: cover;
+}
+
+.content{
+
+    margin-left: 10px;
+    color: aliceblue;
+
+}
+
+.content   {
+    width: 1200px;
+    margin: auto;
+
+}
+
+.content h1{
+
+    text-align: center;
+   
+    margin: auto;
+
+    color: #fff;
+
+}
+
+footer {
+    background-color: #323131;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+
+  .footera {
+    background-color: #323131;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  /* Style for the entire table */
+table {
+    width: 60%; /* Adjust the width of the table */
+    margin: 20px auto; /* Centers the table on the page */
+    border-collapse: collapse; /* Ensures no double borders between cells */
+}
+
+/* Style for table header (Subject, Grade) */
+th {
+    background-color: #2c2b2b; /* Light gray background for the header */
+    padding: 12px; /* Adds padding to header cells */
+    text-align: center; /* Centers the text in header cells */
+    font-size: 16px; /* Sets font size for header text */
+}
+
+/* Style for table data cells */
+td {
+    border: 1px solid #2e2e2e; /* Adds a light gray border around the data cells */
+    padding: 10px; /* Adds padding inside each data cell */
+    text-align: center; /* Centers the text in data cells */
+    font-size: 14px; /* Sets font size for data cells */
+}
+
+/* Style for the table caption */
+caption {
+    font-size: 1.8em; /* Larger font size for the caption */
+    font-weight: bold; /* Makes the caption text bold */
+    margin-bottom: 15px; /* Adds space below the caption */
+}
+
+/* Style for alternating row colors for better readability */
+tr:nth-child(even) {
+    background-color: #323131; /* Light gray background for even rows */
+}
+
+/* Optional: Adds a hover effect on table rows for better interactivity */
+tr:hover {
+    background-color: #131212; /* Slightly darker gray for hovered rows */
+}
+
+.skillul{
+
+    font-size: 20px;
+    text-align: center;
+}
